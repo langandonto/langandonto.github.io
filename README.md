@@ -1,4 +1,4 @@
 langandonto.github.io
 =====================
 
-Website for the Language and Ontologies Workshop
+Website for the IWCS Workshop: Language and Ontologies (2015).

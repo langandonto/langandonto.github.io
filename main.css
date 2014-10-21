@@ -1,0 +1,76 @@
+html {
+  font-size: 14px
+}
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: #444
+}
+
+header, nav, article, section, footer {
+  /*border:1px solid grey;*/
+  margin:5px;
+  padding:8px;
+}
+
+.content {
+  margin-right: 326px;
+}
+
+nav ul {
+  margin:0; padding:0;
+}
+
+nav ul li {
+  display:inline; margin:5px;
+}
+
+section {
+}
+
+h1, h2, h3 {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+a {
+  color: #07d;
+  text-decoration: none;
+  cursor: pointer
+}
+
+a:hover {
+  color: #059;
+  text-decoration: underline
+}
+
+em {
+  color: #d05
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle
+}
+
+aside {
+  position: fixed;
+  top: 35px;
+  width: 256px;
+  right: 35px;
+  padding: 15px;
+  background: #fafafa;
+  color: #444;
+  border: 1px solid #ddd;
+  border-radius: 4px
+}
+
+footer {
+  font-size: 12px;
+}
