@@ -27,7 +27,8 @@ nav ul li {
   display:inline; margin:5px;
 }*/
 
-section {
+section h2 {
+  color: #148c07;
 }
 
 h1, h2, h3 {
