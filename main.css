@@ -10,23 +10,22 @@ body {
   color: #444
 }
 
-header, nav, article, section, footer {
-  /*border:1px solid grey;*/
+/*header, nav, article, section, footer {
   margin:5px;
   padding:8px;
 }
 
 .content {
   margin-right: 326px;
-}
+}*/
 
-nav ul {
+/*nav ul {
   margin:0; padding:0;
 }
 
 nav ul li {
   display:inline; margin:5px;
-}
+}*/
 
 section {
 }
@@ -51,6 +50,9 @@ em {
   color: #d05
 }
 
+
+
+/*
 img {
   max-width: 100%;
   height: auto;
@@ -59,18 +61,8 @@ img {
   vertical-align: middle
 }
 
-aside {
-  position: fixed;
-  top: 35px;
-  width: 256px;
-  right: 35px;
-  padding: 15px;
-  background: #fafafa;
-  color: #444;
-  border: 1px solid #ddd;
-  border-radius: 4px
-}
+
 
 footer {
   font-size: 12px;
-}
+}*/

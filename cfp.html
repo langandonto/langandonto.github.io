@@ -10,111 +10,146 @@
   <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/uikit.min.js"></script>
+  <script src="js/sticky.min.js"></script>
 </head>
-<body class="content">
-  <header>
-    <h1>IWCS Workshop: Language and Ontologies 2015</h1>
-  </header>
+<body>
+  <!-- Main container (body) -->
+  <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="cfp.html">Call for Papers</a>
-  </nav>
+    <!-- Navigation -->
+    <nav class="uk-navbar uk-margin-large-bottom">
+      <header>
+        <a class="uk-navbar-brand uk-hidden-small" href="http://iwcs2015.github.io/">IWCS 2015</a>
+      </header>
 
-  <aside>
-    Deadlines:<br />
-    <ul>
-      <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
-      <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
-      <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
-      <li><strong>14th April 2015</strong><br />Workshop</li>
-    </ul>
-  </aside>
-
-  <section>
-    <h3>The Language and Ontologies workshop is co-located with the
-      <a href="http://iwcs2015.github.io">
-      11th International Conference on Computational Semantics (IWCS)
-      </a>
-      in the Queen Mary University of London, UK on 14th April, 2015
-    </h3>
-    <p>
-      The aim of the IWCS conference is to bring together researchers interested in the computation, annotation, extraction, and representation of meaning in natural language. Similarly to the main conference, the focus of the workshop is on the semantic side of ontologies and computational linguistics.
-    </p>
-  </section>
-
-  <section>
-    <h3>Topics of Interest</h3>
-    <p>
-      <ul>
-        <li>NLP-driven ontology modelling<br />
-          <ul>
-            <li>Ontology learning and population from text</li>
-            <li>Ontology authoring</li>
-            <li>Annotation and annotation schemes</li>
-            <li>Authoring dialogues</li>
-            <li>Psychological studies of errors</li>
-          </ul>
-        </li>
-        <li>NLP-driven access to ontologies
-          <ul>
-            <li>Natural language interfaces to ontologies</li>
-            <li>Verbalization of ontologies</li>
-            <li>Verbalization of query languages</li>
-          </ul>
-        </li>
-        <li>Ontologies for NLP (e.g. textual entailment, summarisation)</li>
-        <li>Ontology-based information retrieval</li>
-        <li>Ontologies, folksonomies, and lexicons</li>
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cfp.html">Call for Papers</a></li>
       </ul>
-    </p>
-  </section>
+    </nav>
 
-  <section>
-    <h3>Submission Requirements</h3>
-    <p>
-      Article should be a mamximum of 5 pages long with an additional page allowed for references. Articles should be anonymised and each article will be reviewed by 3 reviewers. The accepted articles will be part of the conference proceedings and will be published in an electronic form in the ACL Anthology.
-    </p>
-    <p>
-      Papers should be electronically submited in a PDF format via easychair (to be arranged). The deadline for submission is 21st December 2014. Please follow the <a href="http://iwcs2015.github.io/instructions-for-authors.html">IWCS formatting guidelines</a>.
-  </section>
+    <!-- Image and title -->
+    <div class="uk-grid" data-uk-grid-margin>
 
-  <section>
-    <h3>Program Committee</h3>
-    <ul>
-      <li>Ion Androutsopoulos (Athens University of Economics and Business)</li>
-      <li>Elena Cabrio (INRIA Sophia Antipolis)</li>
-      <li>Geeth de Mel (IBM US)</li>
-      <li>Jeff Z. Pan (University of Aberdeen)</li>
-      <li>Richard Power (Open University)</li>
-      <li>Riccardo Rosati (Università di Roma La Sapienza)</li>
-      <li>Steffen Staab (Universität Koblenz)</li>
-      <li>Robert Stevens (Manchester University)</li>
-      <li>Matthias Thimm (Universität Koblenz)</li>
-      <li>Kees van Deemter (University of Aberdeen)</li>
-      <li>Serena Villata (INRIA Sophia Antipolis)</li>
-      <li>Boris Villazn-Terrazas (iSOCO Madrid)</li>
-      <li>Adam Wyner (University of Aberdeen)</li>
-      <li>Aldo Gangemi (ISTC Rome)</li>
-      <li>Jorge Gracia (UPM Madrid)</li>
-      <li>Andrea Moro (Università di Roma La Sapienza)</li>
-      <li>Feiyu Xu (DFKI, Saarbr&uuml;cken)</li>
-    </ul>
-  </section>
+      <div class="uk-width-medium-1-1">
+        <div id='cover' class="uk-vertical-align uk-text-center cover uk-panel uk-panel-box uk-margin-remove">
+          <div class="uk-vertical-align-middle uk-width-1-1">
 
-  <section>
-    <h3>Important Dates</h3>
-    <ul>
-      <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
-      <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
-      <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
-      <li><strong>14th April 2015</strong><br />Workshop</li>
-    </ul>
-  </section>
+            <img src="graphics/banner.png">
+            <h1>IWCS Workshop: Language and Ontologies 2015</h1>
+          </div>
+        </div>
+      </div>
 
-  <footer>
-    <p>Last update: October 2014</p>
-  </footer>
+      <!-- Main content - sections (3/4 of the width) -->
+      <div class="uk-width-medium-3-4">
 
+        <section>
+          <h3>The Language and Ontologies workshop is co-located with the
+            <a href="http://iwcs2015.github.io">
+              11th International Conference on Computational Semantics (IWCS)
+            </a>
+            in the Queen Mary University of London, UK on 14th April, 2015
+          </h3>
+          <p>
+            The aim of the IWCS conference is to bring together researchers interested in the computation, annotation, extraction, and representation of meaning in natural language. Similarly to the main conference, the focus of the workshop is on the semantic side of ontologies and computational linguistics.
+          </p>
+        </section>
+
+        <section>
+          <h3>Topics of Interest</h3>
+          <p>
+            <ul>
+              <li>NLP-driven ontology modelling<br />
+                <ul>
+                  <li>Ontology learning and population from text</li>
+                  <li>Ontology authoring</li>
+                  <li>Annotation and annotation schemes</li>
+                  <li>Authoring dialogues</li>
+                  <li>Psychological studies of errors</li>
+                </ul>
+              </li>
+              <li>NLP-driven access to ontologies
+                <ul>
+                  <li>Natural language interfaces to ontologies</li>
+                  <li>Verbalization of ontologies</li>
+                  <li>Verbalization of query languages</li>
+                </ul>
+              </li>
+              <li>Ontologies for NLP (e.g. textual entailment, summarisation)</li>
+              <li>Ontology-based information retrieval</li>
+              <li>Ontologies, folksonomies, and lexicons</li>
+            </ul>
+          </p>
+        </section>
+
+        <section>
+          <h3>Submission Requirements</h3>
+          <p>
+            Article should be a mamximum of 5 pages long with an additional page allowed for references. Articles should be anonymised and each article will be reviewed by 3 reviewers. The accepted articles will be part of the conference proceedings and will be published in an electronic form in the ACL Anthology.
+          </p>
+          <p>
+            Papers should be electronically submited in a PDF format via easychair (to be arranged). The deadline for submission is 21st December 2014. Please follow the <a href="http://iwcs2015.github.io/instructions-for-authors.html">IWCS formatting guidelines</a>.
+          </p>
+        </section>
+
+        <section>
+          <h3>Program Committee</h3>
+          <ul>
+            <li>Ion Androutsopoulos (Athens University of Economics and Business)</li>
+            <li>Elena Cabrio (INRIA Sophia Antipolis)</li>
+            <li>Geeth de Mel (IBM US)</li>
+            <li>Jeff Z. Pan (University of Aberdeen)</li>
+            <li>Richard Power (Open University)</li>
+            <li>Riccardo Rosati (Università di Roma La Sapienza)</li>
+            <li>Steffen Staab (Universität Koblenz)</li>
+            <li>Robert Stevens (Manchester University)</li>
+            <li>Matthias Thimm (Universität Koblenz)</li>
+            <li>Kees van Deemter (University of Aberdeen)</li>
+            <li>Serena Villata (INRIA Sophia Antipolis)</li>
+            <li>Boris Villazn-Terrazas (iSOCO Madrid)</li>
+            <li>Adam Wyner (University of Aberdeen)</li>
+            <li>Aldo Gangemi (ISTC Rome)</li>
+            <li>Jorge Gracia (UPM Madrid)</li>
+            <li>Andrea Moro (Università di Roma La Sapienza)</li>
+            <li>Feiyu Xu (DFKI, Saarbr&uuml;cken)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Important Dates</h3>
+          <ul>
+            <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
+            <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
+            <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
+            <li><strong>14th April 2015</strong><br />Workshop</li>
+          </ul>
+        </section>
+
+      </div>
+      <!-- End of main content - sections -->
+
+      <!-- Side menu (1/4 of the width) -->
+      <aside class="uk-width-medium-1-4 uk-visible-large">
+        <div class="uk-sticky-placeholder" style="height: 270px;">
+          <div class="uk-panel uk-panel-box" data-uk-sticky="{top:35}">
+            <h2 class="uk-h3">Deadlines:</h2>
+            <ul class="uk-list uk-list-line">
+              <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
+              <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
+              <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
+              <li><strong>14th April 2015</strong><br />Workshop</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <footer>
+      <p>Last update: October 2014</p>
+    </footer>
+  </div>
+  <!-- End of main container (body) -->
 </body>
 </html>

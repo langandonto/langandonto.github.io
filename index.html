@@ -10,60 +10,95 @@
   <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/uikit.min.js"></script>
+  <script src="js/sticky.min.js"></script>
 </head>
-<body class="content">
-  <header>
-    <h1>IWCS Workshop: Language and Ontologies 2015</h1>
-  </header>
+<body>
+  <!-- Main container (body) -->
+  <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="cfp.html">Call for Papers</a>
-  </nav>
+    <!-- Navigation -->
+    <nav class="uk-navbar uk-margin-large-bottom">
+      <header>
+        <a class="uk-navbar-brand uk-hidden-small" href="http://iwcs2015.github.io/">IWCS 2015</a>
+      </header>
 
-  <aside>
-    Deadlines:<br />
-    <ul>
-      <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
-      <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
-      <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
-      <li><strong>14th April 2015</strong><br />Workshop</li>
-    </ul>
-  </aside>
-
-  <section>
-    <h3>Description</h3>
-    <p>
-      With the increasing importance of Semantic Web technologies, formal ontologies are increasingly used by people with limited or no background in formal logic, 
-      creating a growing interest in natural and easily accessible front ends.
-      In addition, the role of ontologies in Computational Linguistics is recognised as crucial. 
-      Global interest in these topics is witnessed by recent projects such as NeOn (Lifecycle Support for Networked Ontologies), 
-      LEGO (Lexicon Enhancement via the GOLD Ontology), SWAT (Semantic Web Authoring Tool), 
-      PESCaDO (Personalized Environmental Service Configuration and Delivery Orchestration), CO-ODE, and WhatIf (What if. . . questions for Ontology Authoring). 
-    </p>
-    <p>
-      This workshop therefore aims to create a forum for the many ways in which research on ontologies and research in Computational Linguistics relate to each other. 
-      It aims at bringing together researchers from different communities, including controlled languages and natural language interfaces as well as ontology languages and linguistic ontologies, 
-      in order to identify common interests, exploit synergies, and share methods, tools and resources.
-    </p>
-    <p>
-
-    </p>
-  </section>
-
-  <section>
-    <h3>Organisers: </h3>
-    <p>
-      <ul>
-        <li>Roman Kutlák (r.kutlak@abdn.ac.uk), University of Aberdeen</li>
-        <li>Artemis Parvizi (a.parvizi@abdn.ac.uk), University of Aberdeen</li>
-        <li>Christina Unger (cunger@cit-ec.uni-bielefeld.de), Universität Bielefeld</li>
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cfp.html">Call for Papers</a></li>
       </ul>
-    </p>
-  </section>
+    </nav>
 
-  <footer>
-    <p>Last update: October 2014</p>
-  </footer>
+    <!-- Image and title -->
+    <div class="uk-grid" data-uk-grid-margin>
+
+      <div class="uk-width-medium-1-1">
+        <div id='cover' class="uk-vertical-align uk-text-center cover uk-panel uk-panel-box uk-margin-remove">
+          <div class="uk-vertical-align-middle uk-width-1-1">
+
+            <img src="graphics/banner.png">
+            <h1>IWCS Workshop: Language and Ontologies 2015</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main content - sections (3/4 of the width) -->
+      <div class="uk-width-medium-3-4">
+
+        <section>
+          <h3>Description</h3>
+          <p>
+            With the increasing importance of Semantic Web technologies, formal ontologies are increasingly used by people with limited or no background in formal logic,
+            creating a growing interest in natural and easily accessible front ends.
+            In addition, the role of ontologies in Computational Linguistics is recognised as crucial.
+            Global interest in these topics is witnessed by recent projects such as NeOn (Lifecycle Support for Networked Ontologies),
+            LEGO (Lexicon Enhancement via the GOLD Ontology), SWAT (Semantic Web Authoring Tool),
+            PESCaDO (Personalized Environmental Service Configuration and Delivery Orchestration), CO-ODE, and WhatIf (What if. . . questions for Ontology Authoring).
+          </p>
+          <p>
+            This workshop therefore aims to create a forum for the many ways in which research on ontologies and research in Computational Linguistics relate to each other.
+            It aims at bringing together researchers from different communities, including controlled languages and natural language interfaces as well as ontology languages and linguistic ontologies,
+            in order to identify common interests, exploit synergies, and share methods, tools and resources.
+          </p>
+          <p>
+
+          </p>
+        </section>
+
+        <section>
+          <h3>Organisers: </h3>
+          <p>
+            <ul>
+              <li>Roman Kutlák (r.kutlak@abdn.ac.uk), University of Aberdeen</li>
+              <li>Artemis Parvizi (a.parvizi@abdn.ac.uk), University of Aberdeen</li>
+              <li>Christina Unger (cunger@cit-ec.uni-bielefeld.de), Universität Bielefeld</li>
+            </ul>
+          </p>
+        </section>
+
+      </div>
+      <!-- End of main content - sections -->
+
+      <!-- Side menu (1/4 of the width) -->
+      <aside class="uk-width-medium-1-4 uk-visible-large">
+        <div class="uk-sticky-placeholder" style="height: 270px;">
+          <div class="uk-panel uk-panel-box" data-uk-sticky="{top:35}">
+            <h2 class="uk-h3">Deadlines:</h2>
+            <ul class="uk-list uk-list-line">
+              <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
+              <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
+              <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
+              <li><strong>14th April 2015</strong><br />Workshop</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <footer>
+      <p>Last update: October 2014</p>
+    </footer>
+  </div>
+  <!-- End of main container (body) -->
 </body>
 </html>
