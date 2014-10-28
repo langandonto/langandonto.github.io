@@ -31,6 +31,10 @@ section h2 {
   color: #148c07;
 }
 
+.notitle {
+color: #444
+}
+
 h1, h2, h3 {
   margin-left: 2em;
   margin-right: 2em;
