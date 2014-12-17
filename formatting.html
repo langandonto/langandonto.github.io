@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <title>IWCS Workshop: Language and Ontologies 2015</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="pygments.css" />
+  <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/sticky.min.js"></script>
+</head>
+<body>
+  <!-- Main container (body) -->
+  <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+    <!-- Navigation -->
+    <nav class="uk-navbar uk-margin-large-bottom">
+      <header>
+        <a class="uk-navbar-brand uk-hidden-small" href="http://iwcs2015.github.io/">IWCS 2015</a>
+      </header>
+
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cfp.html">Call for Papers</a></li>
+        <li><a href="formatting.html">Submission</a></li>
+      </ul>
+    </nav>
+
+    <!-- Image and title -->
+    <div class="uk-grid" data-uk-grid-margin>
+
+      <div class="uk-width-medium-1-1">
+        <div id='cover' class="uk-vertical-align uk-text-center cover uk-panel uk-panel-box uk-margin-remove">
+          <div class="uk-vertical-align-middle uk-width-1-1">
+
+            <img src="graphics/banner.png">
+            <h1>IWCS Workshop: Language and Ontologies 2015</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main content - sections (3/4 of the width) -->
+      <div class="uk-width-medium-3-4">
+
+        <section>
+          <h2>Submission Requirements</h2>
+          <p>
+            Article should be a mamximum of 6 pages long with an additional page
+            allowed for references. Articles should be anonymised
+            and each article will be reviewed by 3 reviewers. The accepted
+            articles will be part of the conference proceedings and will be
+            published in an electronic form in the ACL Anthology.
+          </p>
+          <p>
+            Papers should be electronically submited in a PDF format via START.
+            The deadline for submission is 21st December 2014.
+            Please submit your papers here:
+            <a href="https://www.softconf.com/iwcs2015/langandonto/">
+              https://www.softconf.com/iwcs2015/langandonto/</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>LaTeX Submissions</h2>
+          <p>Users of LaTeX should use documentclass
+            <tt class="docutils literal">article</tt> with the options
+            <tt class="docutils literal">a4paper</tt> and
+            <tt class="docutils literal">11pt</tt>, using the packages
+            <tt class="docutils literal">times</tt> and
+            <tt class="docutils literal">geometry</tt> to set font and margins.
+            For citations please use the
+            <tt class="docutils literal">natbib</tt> package with
+            <tt class="docutils literal">chicago.bst</tt> as bibliography style.
+            See below for an example LaTeX file:</p>
+          <div class="highlight"><pre><span class="k">\documentclass</span><span class="na">[a4paper,11pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+
+            <span class="k">\usepackage</span><span class="nb">{</span>graphicx<span class="nb">}</span>  <span class="c">%%% for including graphics</span>
+            <span class="k">\usepackage</span><span class="nb">{</span>url<span class="nb">}</span>       <span class="c">%%% for including URLs</span>
+            <span class="k">\usepackage</span><span class="nb">{</span>times<span class="nb">}</span>
+            <span class="k">\usepackage</span><span class="nb">{</span>natbib<span class="nb">}</span>
+            <span class="k">\usepackage</span><span class="na">[margin=25mm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+
+            <span class="k">\title</span><span class="nb">{</span>Example Paper for IWCS<span class="nb">}</span>
+            <span class="k">\date</span><span class="nb">{}</span>
+
+            <span class="k">\author</span><span class="nb">{</span>Example Author<span class="k">\\</span>
+            Affiliation<span class="k">\\</span>
+            <span class="k">\texttt</span><span class="nb">{</span>example@email.org<span class="nb">}</span>
+            <span class="k">\and</span> Someone Else<span class="k">\\</span>
+            Another Affiliation<span class="k">\\</span>
+            <span class="k">\texttt</span><span class="nb">{</span>another@email.org<span class="nb">}</span>
+            <span class="nb">}</span>
+
+            <span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+            <span class="k">\maketitle</span>
+            <span class="k">\thispagestyle</span><span class="nb">{</span>empty<span class="nb">}</span>
+            <span class="k">\pagestyle</span><span class="nb">{</span>empty<span class="nb">}</span>
+
+            <span class="k">\begin</span><span class="nb">{</span>abstract<span class="nb">}</span>
+            Your abstract ...
+            <span class="k">\end</span><span class="nb">{</span>abstract<span class="nb">}</span>
+
+            <span class="k">\section</span><span class="nb">{</span>Introduction<span class="nb">}</span>
+
+            ....
+
+            <span class="k">\bibliographystyle</span><span class="nb">{</span>chicago<span class="nb">}</span>
+            <span class="k">\bibliography</span><span class="nb">{</span>mybib<span class="nb">}</span>
+
+            <span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+          </pre></div>
+        </section>
+
+      </div>
+      <!-- End of main content - sections -->
+
+      <!-- Side menu (1/4 of the width) -->
+      <aside class="uk-width-medium-1-4 uk-visible-large">
+        <div class="uk-sticky-placeholder" style="height: 270px;">
+          <div class="uk-panel uk-panel-box" data-uk-sticky="{top:35}">
+            <h2 class="uk-h2">Deadlines:</h2>
+            <ul class="uk-list uk-list-line">
+              <li><strong>21st December 2014</strong><br /> Paper submissions due</li>
+              <li><strong>2nd February 2015</strong><br />Paper notification of acceptance</li>
+              <li><strong>25th Feburary 2015</strong><br />Camera-ready papers due</li>
+              <li><strong>14th April 2015</strong><br />Workshop</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <footer>
+      <p>Last update: 17th December 2014</p>
+    </footer>
+  </div>
+  <!-- End of main container (body) -->
+</body>
+</html>
